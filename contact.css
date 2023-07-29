@@ -1,0 +1,361 @@
+@font-face {
+    font-family: "artico-bold";
+    src: url("Artico/Fontspring-DEMO-artico-medium.otf")
+
+}
+
+@font-face {
+    font-family: "artico-thin";
+    src: url("Artico/Fontspring-DEMO-artico-light.otf")
+
+}
+
+@font-face {
+    font-family: "eras";
+    src: url("assets/font/itcerasstd-book.otf")
+
+}
+
+
+@font-face {
+    font-family: "goldbill";
+    src: url("./goldbill_xs/Goldbill-XSExtraBold.ttf"),
+}
+
+
+@font-face {
+    font-family: "goldbill-thin";
+    src: url("./goldbill_xs/Goldbill-XLLight.ttf"),
+}
+
+@font-face {
+    font-family: "Always W01 Black";
+    src: url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.eot");
+    src: url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.svg#Always W01 Black")format("svg");
+}
+
+
+
+.navbar{
+    background : transparent;
+    /* border-bottom: solid 3px #ffd770; */
+}
+
+
+
+.nav-item{
+    padding: 0px 1.5rem !important;
+    color: #e9e9c3;
+}
+
+.nav-item span{
+    margin: 0;
+    font-size: .6rem;
+    font-family: "artico-bold";
+
+}
+
+.nav-item a {
+    margin: 0;
+    text-decoration: none;
+    color: #e9e9c3;
+    font-family: "artico-bold";
+    font-size: 1rem;
+}
+
+
+.navbar-brand{
+    color: #ffd770;
+    font-family: "artico-bold";
+    font-size: 2rem;
+}
+
+
+
+
+/* 
+----------------------------------------------------
+* START :  BANNER STYLE
+----------------------------------------------------
+*/
+
+.banner_section{
+    padding-top: 30px;
+}
+
+
+.banner_text {
+    padding: 4rem 0px;
+
+}
+
+.banner_text h3 {
+    font-family: "goldbill";
+    font-size: 1rem;
+    margin-bottom: 20px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #e9e9c3;
+    text-align: center;
+}
+
+.banner_text h1{
+    font-family: "eras";
+    font-size: 2rem;
+
+    color: #e9e9c3;
+    text-align: center;
+    /* line-height: 90px; */
+    letter-spacing: 1px;
+    overflow-wrap: break-word;
+}
+
+
+
+/* 
+----------------------------------------------------
+* END :  BANNER STYLE
+----------------------------------------------------
+*/
+
+
+.contact-title{
+    padding-bottom: 4rem;
+    text-align: center;
+    color: #e9e9c3;
+
+}
+
+
+.contact-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #ffd770;
+    padding: 2rem;
+}
+
+.contact-item:last-child{
+    border: none;
+}
+
+.contact-item .icon {
+    margin-bottom: 2rem;
+}
+.contact-item h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #ffd770;
+    margin-bottom: 1rem;
+}
+
+.contact-item  p {
+    color: #e9e9c3;
+    font-family: "eras";
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+
+
+.form-title{
+    text-align: center;
+}
+
+.form-title h1{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+
+.form-title h2{
+    letter-spacing: 3px;
+}
+
+.form-title h1, .form-title h2 {
+    font-size: 1rem;
+    color: #e9e9c3;
+    font-family: "goldbill";
+    /* letter-spacing: 7px; */
+    text-transform: uppercase;
+}
+
+
+
+.formulaire * {
+    background-color: #e9e9c3;
+}
+
+.form-content button {
+    margin-top: 1rem;
+}
+
+
+.button {
+    background: none ;
+    border: 2px solid #e9e9c3;
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    font-family: "artico-bold";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #e9e9c3;
+    transition: all .5s ease-in-out;
+}
+
+.button:hover {
+    border: 2px solid #e9e9c3;
+    color: #3b7d7d;
+    background-color: #e9e9c3;
+}
+
+
+.footer-s1 {
+    display: flex;
+    justify-content: center;
+}
+.footer-s1 img {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+
+.footer-s2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.map-icon{
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    background-color: #e9e9c3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-icon img {
+    max-width: 100%;
+}
+
+.map-desc{
+    margin-left: 2rem;
+}
+
+.map-desc h3 {
+    font-size: 1rem;
+    font-family: "artico-bold";
+    text-transform: uppercase;
+    color: #e9e9c3;
+    margin: 0;
+}
+
+.map-desc p {
+    color: #ffd770;
+    font-family: 'eras';
+    margin: 0;
+}
+
+
+
+.footer-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-nav {
+    padding: 1rem 0px 0px 0px;
+}
+
+.footer-nav a {
+    font-size: .75rem;
+    color: #e9e9c34e;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    
+    color: #e9e9c3;
+}
+.footer-nav span{
+    padding: 0px 1rem;
+    color: #e9e9c34e;
+}
+
+
+
+
+/* Tablet size */
+@media only screen and (min-width : 800px){
+
+}
+
+
+/* Desktop size */
+@media only screen and (min-width: 1200px){
+
+    
+/* 
+----------------------------------------------------
+* START :  BANNER STYLE
+----------------------------------------------------
+*/
+
+.banner_section{
+    padding-top: 30px;
+}
+
+
+.banner_text {
+    padding: 8rem 8rem;
+
+}
+
+.banner_text h3 {
+    font-family: "goldbill";
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #e9e9c3;
+    text-align: center;
+}
+
+.banner_text h1{
+    font-family: "eras";
+    font-size: 72px;
+    max-width: 30ch;
+    color: #e9e9c3;
+    text-align: center;
+    line-height: 90px;
+    letter-spacing: -2px;
+    overflow-wrap: break-word;
+}
+
+
+/* 
+----------------------------------------------------
+* END :  BANNER STYLE
+----------------------------------------------------
+*/
+
+
+
+}
