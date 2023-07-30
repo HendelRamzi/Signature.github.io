@@ -134,7 +134,7 @@
 .rea-image {
     display: block;
     width: 100%;
-    max-width: 449px;
+    /* max-width: 449px; */
     aspect-ratio: 4/3;
     object-fit: cover;
     object-position: center;
