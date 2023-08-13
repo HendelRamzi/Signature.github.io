@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        .banner-container{
+            background-image: url('./assets/imgs/FOND.png');
+        }
+
+        @font-face {
+            font-family: "BebasNeue";
+            src: url(./BebasNeue-Regular.ttf);
+        }
+        @font-face {
+            font-family: "Fortunates";
+            src: url(./Fortunates\ December.ttf);
+        }
+
+        
+        #nuage_01{
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            z-index: 8;
+            transform: translateX(-50%);
+            opacity: .7;
+
+        }
+        #nuage_02{
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            z-index: 10;
+            transform: translateX(-50%);
+            opacity: .7;
+
+        }
+
+        #fusee{
+            position: absolute;
+            left: 50%;
+            top: 0%;
+            transform: translateX(-50%);
+            z-index: 9;
+        }
+
+
+        .banner-text{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            position: relative;
+        }
+        .banner-text h1 {
+            font-size: 2rem;
+            font-family: "BebasNeue";
+            text-align: center;
+            color: #E7E7D9;
+            max-width: 50ch;
+        }
+
+        .banner-text #crop {
+            position: absolute;
+            top: 20%;
+            left: 30%;
+            transform: rotate(-30deg);
+        }
+
+        .banner-text #crop_02 {
+            position: absolute;
+            top: 30%;
+            right: 30%;
+            transform: rotate(-30deg);
+        }
+
+        .banner-text #crop_03 {
+            position: absolute;
+            bottom: 0%;
+            left: 450%;
+            transform: rotate(-30deg);
+        }
+    </style>
+
+
+
+
+</head>
+<body>
+    
+
+    <section class="container-fluid" style="overflow: hidden;">
+        <div class="row banner-container" style="height: 100vh; position: relative;">
+            <div class="col-12  img-content" style="position: relative; overflow: hidden; z-index: 2;">
+                <img width="200" id="nuage_01" src="./assets/imgs/NUAGE 1.png" alt="">
+                <img width="200" id="nuage_02" src="./assets/imgs/NUAGE 2.png" alt="">
+                <img width="200" id="fusee" src="./assets/svg/rocket.svg" alt="">
+            </div>
+            <div class="col-12 banner-text" style="position: absolute; top: 0; left: 0; z-index: 1;">
+                <img width="200" id="logo" src="./assets/imgs/Signature.png" style="margin-bottom: 3rem;">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, tempore?</h1>
+                <img id="crop" style="opacity: .4;" src="./assets/svg/crop.svg" alt="">
+                <img id="crop_02" style="opacity: .4;" src="./assets/svg/crop.svg" alt="">
+                <img id="crop_03" style="opacity: .4;" src="./assets/svg/crop.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+
+        <!-- gsap script -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+
+        <script>
+            var tl = gsap.timeline()
+
+            tl.from("#nuage_01", {
+                y : 500,
+                duration : 1,
+            })
+            tl.from("#nuage_02", {
+                y : 500,
+                duration : 1,
+            }, "<+=.2")
+
+
+            tl.to("#nuage_01", {
+                // duration : 1, 
+                x : -100 , 
+            })
+            tl.to("#nuage_02", {
+                duration : 1, 
+                x : 90
+                 ,  
+            },"<+=.1")
+
+            tl.fromTo("#fusee", {
+                top : "100%", 
+                // duration: 1,
+            },{
+                top: "20%",
+                duration : 1,
+                ease: Back.easeOut,
+            },"<-=.1")
+
+
+            tl.to('#fusee', {
+                top : "-100%",
+                duration : 1,
+                ease: Back.easeIn,
+            },"<+=2") //Stay to second before the rocket go away.
+
+            tl.to("#nuage_01", {
+                duration : 2, 
+                x : -110 , 
+            },"<")
+            tl.to("#nuage_02", {
+                duration : 2, 
+                x : 110,  
+            },"<+=.1")
+
+
+            tl.to("#nuage_01", {
+                x : -190 , 
+                duration : 1.8,
+                opacity : 0,
+            },"<+=.3")
+            tl.to("#nuage_02", {
+                x : 190,  
+                duration : 1.8,
+                opacity : 0,
+            },"<+=.1")
+
+            tl.to('.img-content', {
+                opacity : 0, 
+                duration : 1,
+            },"<")
+            tl.to('.banner-text', {
+                opacity : 1, 
+                duration : 1,
+                ease: Back.easeIn,
+            },"<")
+
+
+       </script>
+
+
+<script>
+    var tll = gsap.timeline()
+    tll.to('#crop, #crop_02, #crop_03  ', {
+        y: "+=20px",
+        yoyo:true,
+        repeat:-1,
+        rotate : "360deg",
+        stagger: {
+            from: "left",
+            amount: .4
+        },
+        duration : 2, 
+        ease: Power2.easeOut
+    })
+</script>
+
+
+
+</body>
+</html>

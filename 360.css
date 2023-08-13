@@ -1,14 +1,4 @@
-@font-face {
-    font-family: "artico-bold";
-    src: url("Artico/Fontspring-DEMO-artico-medium.otf")
 
-}
-
-@font-face {
-    font-family: "artico-thin";
-    src: url("Artico/Fontspring-DEMO-artico-light.otf")
-
-}
 
 @font-face {
     font-family: "eras";
@@ -16,63 +6,51 @@
 
 }
 
-
 @font-face {
-    font-family: "goldbill";
-    src: url("./goldbill_xs/Goldbill-XSExtraBold.ttf"),
+    font-family: "BebasNeue";
+    src: url(./BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: "Fortunates";
+    src: url(./Fortunates\ December.ttf);
 }
 
-
-@font-face {
-    font-family: "goldbill-thin";
-    src: url("./goldbill_xs/Goldbill-XLLight.ttf"),
-}
-
-@font-face {
-    font-family: "Always W01 Black";
-    src: url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.eot");
-    src: url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.svg#Always W01 Black")format("svg");
-}
 
 
 
 .navbar{
-    background-color: #e9e9c3;
-    /* border-bottom: solid 3px #ffd770; */
+    background-color: #E7E7D9 !important;
 }
 
 
 
 .nav-item{
     padding: 0px 1.5rem !important;
-    color: #3b7d7d;
+    color: #275754;
 }
 
 .nav-item span{
     margin: 0;
-    font-size: .6rem;
-    font-family: "artico-bold";
-
+    font-size: 1rem;
+    font-family: "BebasNeue";
+    color: #275754;
 }
 
 .nav-item a {
     margin: 0;
     text-decoration: none;
-    color: #3b7d7d;
-    font-family: "artico-bold";
-    font-size: 1rem;
+    color: #275754;
+    font-family: "BebasNeue";
+    font-size: 1.5rem;
 }
 
 
 .navbar-brand{
-    color: #ffd770;
-    font-family: "artico-bold";
-    font-size: 2rem;
+    color: #f2bf11;
+    font-family: "BebasNeue";
+    font-size: 3rem;
 }
+
 
 
 /* 
@@ -92,12 +70,12 @@
 }
 
 .banner_text h3 {
-    font-family: "goldbill";
+    font-family: "BebasNeue" !important;
     font-size: 1rem;
     margin-bottom: 20px;
     letter-spacing: 7px;
     text-transform: uppercase;
-    color: #e9e9c3;
+    color: #E7E7D9;
     text-align: center;
 }
 
@@ -105,7 +83,7 @@
     font-family: "eras";
     font-size: 2rem;
 
-    color: #e9e9c3;
+    color: #E7E7D9;
     text-align: center;
     /* line-height: 90px; */
     letter-spacing: 1px;
@@ -156,7 +134,7 @@
 
 .divider{
     height: 2px;
-    background-color: #3b7d7d7c;
+    background-color: #2757547c;
 }
 
 .module_desc{
@@ -172,7 +150,7 @@
 .module_desc .img_div {
     width: calc( (2rem * 1.6 ) * 2 );
     height: calc(  (2rem * 1.6 ) * 2  )  ;
-    border: solid 2px #3b7d7d;
+    border: solid 2px #275754;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -182,17 +160,17 @@
 }
 
 .module_desc img{
-    /* fill: #3b7d7d; */
+    /* fill: #275754; */
     width : calc(2rem * 1.6)
 }
 
 .module_desc h1 {
     font-size: 2rem;
-    font-family: "artico-bold";
+    font-family: "BebasNeue";
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #3b7d7d;
+    color: #275754;
     
 }
 
@@ -200,7 +178,7 @@
 .title_under{
     height: 5px;
     width: 100px;
-    background-color: #a91414c3;
+    background-color: #f2bf11;
     margin-bottom: 20px;
 }
 
@@ -233,7 +211,7 @@
     font-family: 'eras';
     font-weight: 800;
     text-transform: uppercase;
-    color: #3b7d7d;
+    color: #275754;
     letter-spacing: 5px;
 }
 
@@ -241,7 +219,7 @@
     font-size: 46px;
     font-family: 'eras';
     font-weight: 800;
-    color: #3b7d7d;
+    color: #275754;
     margin-top: 10px;
 }
 
@@ -266,7 +244,7 @@
 
 
 .contact-desc{
-    color: #e9e9c3;
+    color: #E7E7D9;
     text-align: center;
 }
 
@@ -287,19 +265,19 @@
 
 .contact-desc button {
     background: none ;
-    border: 2px solid #e9e9c3;
+    border: 2px solid #E7E7D9;
     padding: .5rem 2rem;
     font-size: 1rem;
-    font-family: "artico-bold";
+    font-family: "BebasNeue";
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #e9e9c3;
+    color: #E7E7D9;
     transition: all .5s ease-in-out;
 }
 
 .contact-desc button:hover{
-    background-color: #e9e9c3;
-    color: #3b7d7d;
+    background-color: #E7E7D9;
+    color: #275754;
     font-weight: bold
 }
 
@@ -345,16 +323,18 @@
 }
 
 .map-desc h3 {
-    font-size: 1rem;
-    font-family: "artico-bold";
+    font-size: 2rem;
+    font-family: "BebasNeue";
     text-transform: uppercase;
-    color: #e9e9c3;
+    color: #E7E7D9;
+    letter-spacing: 2px;
     margin: 0;
 }
 
 .map-desc p {
-    color: #ffd770;
+    color: #f2bf11;
     font-family: 'eras';
+    font-size: 1rem;
     margin: 0;
 }
 
@@ -366,10 +346,21 @@
     align-items: center;
 }
 
-
-.footer-nav {
-    padding: 1rem 0px 0px 0px;
+.footer-media svg{
+    transform: rotate(0deg);
+    transition: all 1s ease-in-out ;
 }
+
+.footer-media svg:hover{
+    transform: rotateY(360deg);
+}
+
+/* @keyframes rotate {
+    0% {
+        tra
+    }
+} */
+
 
 .footer-nav a {
     font-size: .75rem;
@@ -385,6 +376,7 @@
     padding: 0px 1rem;
     color: #e9e9c34e;
 }
+
 
 
 
@@ -421,7 +413,7 @@
     margin-bottom: 20px;
     letter-spacing: 7px;
     text-transform: uppercase;
-    color: #e9e9c3;
+    color: #E7E7D9;
     text-align: center;
 }
 
@@ -429,7 +421,7 @@
     font-family: "eras";
     font-size: 72px;
 
-    color: #e9e9c3;
+    color: #E7E7D9;
     text-align: center;
     line-height: 90px;
     letter-spacing: -2px;

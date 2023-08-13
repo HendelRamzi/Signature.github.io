@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link href="https://db.onlinewebfonts.com/c/26b8ae09ece7d707ec77a26999d6789c?family=Always+W01+Black" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+
+
+
+    <!-- Opacite ma3lam 8% -->
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        @font-face {
+            font-family: "BebasNeue";
+            src: url(./BebasNeue-Regular.ttf);
+        }
+        @font-face {
+            font-family: "Fortunates";
+            src: url(./Fortunates\ December.ttf);
+        }
+
+        .number_content{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .number_text{
+            display: flex;
+            flex-direction: column;
+          align-items: center;
+        }
+
+        .number_content img{
+            width: 9rem;
+            margin-bottom: 2rem;
+            aspect-ratio: 1/1;
+            object-fit: contain;
+        }
+
+        .number_content h2, .number_content P{
+            font-family: "BebasNeue";
+        }
+        .number_content h2{
+            font-size: 3rem;
+            margin-bottom: 0px;
+            margin-top: 30px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            color: #275754;
+        }
+        .number_content p{
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+            color: #275754;
+
+        }
+
+        .logo{
+            z-index: 12;
+        }
+        
+        #crop {
+            position: absolute;
+            top: 20%;
+            left: 30%;
+            width: 100px;
+            transform: rotate(-30deg);
+        }
+
+         #crop_02 {
+            position: absolute;
+            top: 30%;
+            right: 30%;
+            transform: rotate(-30deg);
+            width: 100px;
+        }
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body style="background-color: #E7E7D9;">
+    
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-1 d-flex align-items-center"
+            style="background-color: #E7E7D9;"
+        >
+            <a class="navbar-brand" href="#" style="color: #3b7d7d ;">
+                <img width="100" style="aspect-ratio: 1/1;" src="./assets/imgs/Signature.png" alt="">
+            </a>
+        </div>
+        <div class="col-11 navbar-container" style="padding: 0px;">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 py-3" id="list">
+                        <li class="nav-item d-flex flex-column justify-content-center " > 
+                            <span class="align-self-end">01</span>
+                            <a class=" active" aria-current="page" href="#">Agence</a>
+                        </li>
+                        <li class="nav-item d-flex flex-column justify-content-center " > 
+                            <span class="align-self-end">02</span>
+                            <a class=" active" aria-current="page" href="./360.html">360°</a>
+                        </li>
+                        <li class="nav-item d-flex flex-column justify-content-center " > 
+                            <span class="align-self-end">03</span>
+                            <a class=" active" aria-current="page" href="./services.html">Services</a>
+                        </li>
+                        <li class="nav-item d-flex flex-column justify-content-center " > 
+                            <span class="align-self-end">04</span>
+                            <a class=" active" aria-current="page" href="#">References</a>
+                        </li>
+                        <li class="nav-item d-flex flex-column justify-content-center " > 
+                            <span class="align-self-end">05</span>
+                            <a class=" active" aria-current="page" href="./porfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item d-flex flex-column justify-content-center " > 
+                            <span class="align-self-end">06</span>
+                            <a class=" active" aria-current="page" href="./contact.html">Contact</a>
+                        </li>
+        
+                    </ul>
+        
+                  </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+    <section class="container-xxl" style="background-color: #E7E7D9 !important; overflow: hidden;">
+        <div class="row">
+            <div class="col-12 col-lg-1 ">
+                <div class="small_banner">
+                    <h3>Agence 360°</h3>
+                </div>
+            </div>
+            <div class="col-12 col-lg-11 banner-container">
+                <div class="row" style="height: 100%; position: relative;
+                   
+                ">
+
+
+
+                    <div class="col-6" style="height: 100%; position: relative; z-index: 4;" >
+                        <div class="banner-text h-100 d-flex flex-column justify-content-center" >
+                            <h1 style="color: #f2bf11;">Lorem, ipsum.</h1>
+                            <h1>Lorem, ipsum dolor.</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae adipisci maxime iure soluta eligendi voluptatum recusandae voluptatibus dolores.</p>
+                            <a href="#start">
+                                <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#f2bf11" class="bi bi-arrow-down-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M14 13.5a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1 0-1h4.793L2.146 2.854a.5.5 0 1 1 .708-.708L13 12.293V7.5a.5.5 0 0 1 1 0v6z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex flex-column justify-content-center align-items-center" style="position: relative ; height: 100%; ">
+                        <img width="270" id="nuage_01" src="./assets/imgs/NUAGE 1.png" alt="">
+                        <img width="270" id="nuage_02" src="./assets/imgs/NUAGE 2.png" alt="">
+                        <img width="170" id="fusee" src="./assets/svg/rocket.svg" alt="">
+                        <div id="logo">
+                            <img width="160"  src="./assets/imgs/Signature.png" alt="">
+                            <h2 class="title-sign" >ADVERTISING AND EVENTS</h2>
+                        </div>
+
+                    </div>
+                    <div class="col-12 slider-section" style="height: 30%; z-index: 5;">
+                        <div class="sliders-container">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sliders-container">
+                            <div class="swiper mySwiper2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        #<span>perf </span>#<b>bigidea </b>#scroll <b>#mèmepaspeur </b>#UGC #<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b> #UGC </b>#<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b>#UGC </b>                                    
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>perf </span>#<b>bigidea </b>#scroll <b>#mèmepaspeur </b>#UGC #<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b> #UGC </b>#<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b>#UGC </b>                                    
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>perf </span>#<b>bigidea </b>#scroll <b>#mèmepaspeur </b>#UGC #<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b> #UGC </b>#<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b>#UGC </b>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sliders-container">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- 
+    <section class="container-fluid" style="background-color: #E7E7D9 !important; overflow: hidden;">
+        <div class="row">
+            <div class=" col-12 col-lg-1 small_banner">
+                <h3>agence de communication 360° </h3>
+            </div>  
+            <div class=" col-12 col-lg-11 banner-container" style="padding: 0px !important;">
+                <div class="banner-content row" >
+                    <div class="col-6 d-flex flex-column justify-content-center titles" style="height: 70vh;">
+                        <div class="" style=" padding-left: 3rem;">
+                            <h1 style="color: #e9e9c3;">We design with</h1>
+                            <h1 style="color: #e9e9c3;"><span style="color: #ffd770;">User centric</span> <br>
+                             approch.</h1>
+                            <div class="divider"></div>
+                        </div>
+                    </div>
+                    <div class="col-6  img-content" style="position: relative; overflow: hidden;">
+                        <img width="270" id="nuage_01" src="./assets/imgs/NUAGE 1.png" alt="">
+                        <img width="270" id="nuage_02" src="./assets/imgs/NUAGE 2.png" alt="">
+                        <img width="170" id="fusee" src="./assets/svg/rocket.svg" alt="">
+                        <img width="300" id="logo" src="./assets/imgs/Signature.png" alt="">
+                    </div>
+
+                    <div class=" col-12 slider-section" style="margin-top: 50px;"> 
+                        <div class="sliders-container">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sliders-container">
+                            <div class="swiper mySwiper2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        #<span>perf </span>#<b>bigidea </b>#scroll <b>#mèmepaspeur </b>#UGC #<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b> #UGC </b>#<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b>#UGC </b>                                    
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>perf </span>#<b>bigidea </b>#scroll <b>#mèmepaspeur </b>#UGC #<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b> #UGC </b>#<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b>#UGC </b>                                    
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>perf </span>#<b>bigidea </b>#scroll <b>#mèmepaspeur </b>#UGC #<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b> #UGC </b>#<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b>#UGC </b>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sliders-container">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+<!-- 
+    <section class="container-fluid" style="background-color: #e9e9c3 !important; overflow: hidden;">
+        <div class="row">
+            <div class=" col-12 col-lg-1 small_banner">
+                <h3>agence de communication 360° </h3>
+            </div>  
+            <div class=" col-12 col-lg-11 banner-container" style="padding: 0px !important;">
+                <div class="banner-content row" >
+
+                    <div class=" col-12 col-md-6 banner-left ">
+                        <span>Agence 360°</span>
+                        <h1>Lorem ipsum dolor sit amet.</h1>
+                        <div class="divider-banner d-none d-lg-block"></div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus nam natus officiis perferendis magnam eos. Aut, eveniet aspernatur saepe reiciendis incidunt.</p>
+                        <a href="#start" class="button" style="color: #ffd770; text-decoration: none;">Explorez</a>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 banner-right" >
+                        <div class=" banner-img">
+                            <img width="300" src="./assets/imgs/Signature.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class=" col-12 slider-section" style="margin-top: 50px;"> 
+                        <div class="sliders-container">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sliders-container">
+                            <div class="swiper mySwiper2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        #<span>perf </span>#<b>bigidea </b>#scroll <b>#mèmepaspeur </b>#UGC #<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b> #UGC </b>#<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b>#UGC </b>                                    
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>perf </span>#<b>bigidea </b>#scroll <b>#mèmepaspeur </b>#UGC #<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b> #UGC </b>#<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b>#UGC </b>                                    
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>perf </span>#<b>bigidea </b>#scroll <b>#mèmepaspeur </b>#UGC #<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b> #UGC </b>#<span>perf </span>#<b>bigidea </b>#scroll <b>#mème</b>paspeur <b>#UGC </b>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sliders-container">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        #<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>#<span>sympalaDA </span>#<b>contenu </b>#KPI <b>#yapasdesujet </b>#datamarketing <b>#POV </b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+
+
+
+
+    <div class="container" id="start">
+        <div class="row">
+
+        <div class="row d-flex align-items-center" style="height: 100vh; padding: 150px 0px;">
+            <div class="col-12">
+                <h2 class="rea-title">
+                    <span class="floating">Nos</span> 
+                    <span class="title">chiffres cles</span>
+                </h2>
+                <p>Votre satisfaction et l’atteinte de vos objectifs sont au coeur de notre engagement.</p>
+            </div>
+            <div class="col-3 " >
+                <div class="number_content">
+                    <img class="" id="exp_icon"  src="./assets/imgs/client.png" alt="">
+                    <div class="number_text">
+                        <h2>+300</h2>
+                        <p>CLIENTS SATISFAITS</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-3">
+
+
+                <div class="number_content">
+                    <img class="" id="colab_icon"  src="./assets/imgs/rea.png" alt="">
+                    <div class="number_text">
+                        <h2>+300</h2>
+                        <p>CLIENTS SATISFAITS</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-3 " >
+
+
+                <div class="number_content">
+                    <img class="" id="exp_icon"  src="./assets/imgs/exp.png" alt="">
+                    <div class="number_text">
+                        <h2>+300</h2>
+                        <p>CLIENTS SATISFAITS</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-3">
+
+
+                <div class="number_content">
+                    <img class="" id="colab_icon"  src="./assets/imgs/colab.png" alt="">
+                    <div class="number_text">
+                        <h2>+300</h2>
+                        <p>CLIENTS SATISFAITS</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        </div>
+    </div>
+
+
+
+<!--     
+
+    <section class="container" style="padding: 100px 0px; overflow: hidden;" id="start">
+
+
+        <div class="row ">
+            <div class="col-12" style="padding: 100px 0px 100px 1rem;">
+                <h2 class="rea-title">
+                    <span class="floating" style='font-family: "Always W01 Black"; font-style: italic;'>Nos</span> 
+                    <span class="title" style="color: #3b7d7d;">chiffres cles</span>
+                </h2>
+                <p style="color: #3b7d7d; font-family: 'eras'; max-width: 40ch;  ">Votre satisfaction et l’atteinte de vos objectifs sont au coeur de notre engagement.</p>
+            </div>
+
+            <div class="number-item col-6 col-lg-3 d-flex flex-column justify-content-center align-items-center"
+                data-aos="zoom-in-down" data-aos-duration="2000" data-aos-delay="100"
+            >
+                <img id="client_logo" src="./assets/svg/client.svg" alt="" >
+                <div class="" style="margin-bottom: 30px;"></div>
+                <h1 id="client_counter">300</h1>
+                <p>Clients</p>
+            </div>
+
+
+
+            <div class="number-item col-6 col-lg-3 d-flex flex-column justify-content-center align-items-center"
+                data-aos="zoom-in-down"  data-aos-duration="2000" data-aos-delay="300"
+            >
+                <img src="./assets/svg/knowledge.svg" alt="" style="margin-bottom: 30px;">
+                <h1 id="rea_counter">1500</h1>
+                <p>Réalisations</p>
+            </div>
+
+
+            <div class="number-item  col-6 col-lg-3 d-flex flex-column justify-content-center align-items-center"
+                data-aos="zoom-in-down"  data-aos-duration="2000" data-aos-delay="600"
+
+            >
+                <img src="./assets/svg/exp.svg" alt="" style="margin-bottom: 30px;">
+                <h1>10 ans </h1>
+                <p>Experiences</p>
+            </div>
+
+            <div class="number-item col-6 col-lg-3 d-flex flex-column justify-content-center align-items-center"
+                data-aos="zoom-in-down"  data-aos-duration="2000" data-aos-delay="900"
+
+            >
+                <img src="./assets/svg/client.svg" alt="" style="margin-bottom: 30px;">
+                <h1>300</h1>
+                <p>Clients</p>
+            </div>
+
+            <div class="col-12 number-cta d-flex align-items-center">
+                <button class="d-flex align-items-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                    <span> EN SAVOIR PLUS</span>
+                    <svg 
+                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right " viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </button>
+            </div>
+
+            
+
+        </div>
+    </section> -->
+
+
+    <section class="container-fluid rea-section" style=" overflow: hidden; padding: 150px 0px 0px 0px ; ">
+        <div class="row">
+            <div class="col-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <h2 class="rea-title ">
+                                <span class="floating">Nos</span> 
+                                <span class="title">Realisations</span>
+                            </h2>
+                            <p >Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                                
+                    <div class="col-12 col-md-6 col-lg-4 center no-padding no-margin" data-aos="fade-up" data-aos-duration="500" data-aos-delay="000">
+                        <figure class="no-margin img-figure">
+                            <figcaption class="img-caption">
+                                <h2>Realisation title</h2>
+                            </figcaption>
+                            <img class="rea-image" src="./assets/imgs/work_01.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 center no-padding no-margin" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                        <figure class="no-margin img-figure">
+                            <figcaption class="img-caption">
+                                <h2>Realisation title</h2>
+                            </figcaption>
+                            <img class="rea-image" src="./assets/imgs/work_02.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 center no-padding no-margin" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                        <figure class="no-margin img-figure">
+                            <figcaption class="img-caption">
+                                <h2>Realisation title</h2>
+                            </figcaption>
+                            <img class="rea-image" src="./assets/imgs/work_03.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 center no-padding no-margin" data-aos="fade-up" data-aos-duration="500" data-aos-delay="000">
+                        <figure class="no-margin img-figure">
+                            <figcaption class="img-caption">
+                                <h2>Realisation title</h2>
+                            </figcaption>
+                            <img class="rea-image" src="./assets/imgs/work_04.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 center no-padding no-margin" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                        <figure class="no-margin img-figure">
+                            <figcaption class="img-caption">
+                                <h2>Realisation title</h2>
+                            </figcaption>
+                            <img class="rea-image" src="./assets/imgs/work_05.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 center no-padding no-margin" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                        <figure class="no-margin img-figure">
+                            <figcaption class="img-caption">
+                                <h2>Realisation title</h2>
+                            </figcaption>
+                            <img class="rea-image" src="./assets/imgs/work_06.jpg" alt="">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 text-center" style="padding: 100px 0px 100px 0px;">
+                <button class="button"
+                data-aos="fade-up" data-aos-duration="500" data-aos-delay="000"
+                >Voir plus</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-xxl" id="service_section" style="background-color:transparent; padding: 100px 0px; overflow: hidden;">
+        <div class="row">
+            <div class="col-12" style="padding: 100px 0px 40px 5rem;">
+                <h2 class="rea-title">
+                    <span class="floating">Nos</span> 
+                    <span class="title" style="color: #E7E7D9;">Services</span>
+                </h2>
+                <p style="color: #f2bf11; font-family: 'eras';  ">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div class="col-12">
+                <div class="row g-5 px-5">
+
+
+                    <div class="col-12 col-md-6 col-lg-4" >
+                        <div class="service-card" >
+                            <div class="card-top">
+                                <div class="icon">
+                                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                    width="70" height="70" viewBox="0 0 512.000000 512.000000"
+                                    preserveAspectRatio="xMidYMid meet">
+
+                                        <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                                        fill="#E7E7D9" stroke="none">
+                                        <path d="M3330 5098 c-70 -36 -84 -70 -90 -217 l-5 -123 -55 -22 -55 -23 -86
+                                        83 c-100 95 -140 113 -211 93 -36 -9 -70 -38 -197 -162 -156 -155 -181 -189
+                                        -181 -252 0 -53 23 -91 108 -177 l75 -77 -25 -58 -25 -58 -129 -5 c-113 -4
+                                        -133 -8 -160 -27 -50 -36 -64 -77 -64 -192 l0 -100 -432 -3 -433 -3 -33 -23
+                                        c-72 -52 -67 31 -70 -1133 l-2 -1047 -298 -4 c-343 -6 -387 -13 -545 -95 -72
+                                        -37 -110 -66 -178 -133 -170 -169 -251 -373 -236 -601 7 -116 29 -196 85 -309
+                                        39 -81 60 -109 142 -190 102 -102 170 -148 278 -187 112 -42 200 -52 430 -53
+                                        l213 0 24 25 c32 31 32 69 0 100 -24 25 -24 25 -237 25 -251 0 -315 11 -438
+                                        71 -66 33 -102 59 -160 118 -343 344 -198 907 270 1053 l75 23 1875 0 1875 0
+                                        75 -23 c273 -85 460 -331 460 -607 0 -232 -143 -462 -350 -564 -153 -75 -54
+                                        -71 -1701 -71 l-1476 0 -21 -23 c-31 -33 -29 -80 4 -106 l27 -21 1471 0 c1583
+                                        1 1543 -1 1688 53 185 68 355 227 438 411 82 180 91 390 25 579 -62 178 -207
+                                        345 -372 430 -169 87 -188 90 -660 95 l-413 4 0 148 c0 160 -7 191 -47 209
+                                        -34 16 -47 14 -77 -10 l-26 -20 0 -165 0 -164 -1035 0 -1035 0 0 1030 0 1030
+                                        350 0 350 0 0 -281 0 -281 34 -34 c51 -51 100 -48 213 13 l86 46 92 -46 c118
+                                        -60 161 -63 211 -13 l34 34 0 281 0 281 350 0 350 0 0 -725 c0 -712 0 -725 20
+                                        -745 27 -27 81 -26 106 1 16 17 20 40 22 130 l4 109 81 0 c99 0 155 23 189 78
+                                        20 32 24 54 28 161 l5 123 55 22 55 23 86 -83 c100 -95 140 -113 212 -93 35 9
+                                        69 38 196 162 156 155 181 189 181 252 0 53 -23 91 -108 177 l-75 77 25 58 25
+                                        58 129 5 c145 6 177 18 208 84 24 50 24 462 0 512 -31 66 -63 78 -208 84
+                                        l-129 5 -25 58 -25 58 75 77 c85 86 108 124 108 177 0 63 -25 97 -181 252
+                                        -127 124 -161 153 -196 162 -72 20 -112 2 -212 -93 l-86 -83 -55 23 -55 22 -5
+                                        123 c-6 146 -22 184 -94 218 -39 19 -60 21 -252 21 -198 0 -212 -1 -254 -22z
+                                        m450 -258 c3 -69 10 -134 17 -145 22 -39 61 -66 147 -101 83 -34 91 -35 134
+                                        -24 38 9 63 28 135 98 l88 86 135 -135 c74 -73 134 -138 134 -144 0 -6 -34
+                                        -44 -76 -85 -41 -41 -82 -87 -90 -102 -22 -42 -17 -97 17 -178 55 -133 86
+                                        -152 252 -158 l117 -4 0 -188 0 -188 -117 -4 c-166 -6 -197 -25 -252 -158 -32
+                                        -78 -39 -136 -20 -173 6 -12 47 -59 90 -103 44 -45 79 -86 79 -90 0 -5 -60
+                                        -70 -134 -143 l-135 -135 -88 86 c-72 70 -97 89 -135 98 -43 11 -51 10 -134
+                                        -24 -86 -35 -125 -62 -147 -101 -7 -11 -14 -76 -17 -145 l-5 -125 -72 -3 -73
+                                        -3 0 253 0 253 75 12 c237 38 448 210 536 437 131 341 -17 722 -344 888 -185
+                                        93 -439 93 -624 0 -125 -64 -234 -168 -306 -292 -35 -62 -74 -183 -83 -257
+                                        l-7 -63 -248 0 -249 0 0 84 0 84 118 4 c167 6 198 26 251 161 51 129 42 164
+                                        -73 277 -42 41 -76 79 -76 85 0 6 60 70 133 143 l133 133 88 -85 c72 -70 96
+                                        -86 135 -96 45 -10 54 -9 130 20 148 57 171 92 171 258 0 60 3 112 7 116 4 3
+                                        90 5 192 4 l186 -3 5 -125z m-5 -561 c232 -86 382 -320 362 -563 -15 -170
+                                        -111 -330 -254 -422 -55 -36 -185 -84 -227 -84 l-26 0 0 218 c0 244 -8 278
+                                        -71 323 -33 24 -39 24 -281 27 l-248 3 0 22 c0 13 7 50 15 82 59 229 251 401
+                                        475 424 87 8 182 -2 255 -30z m-1145 -879 c0 -126 -2 -230 -5 -230 -3 0 -37
+                                        16 -75 35 -40 20 -84 35 -105 35 -21 0 -65 -15 -105 -35 -38 -19 -72 -35 -75
+                                        -35 -3 0 -5 104 -5 230 l0 230 185 0 185 0 0 -230z"/>
+                                        <path d="M2020 2332 c-64 -31 -71 -61 -68 -274 3 -171 5 -189 24 -215 39 -53
+                                        39 -53 469 -53 437 0 432 0 472 59 22 32 23 43 23 215 0 206 -8 238 -70 268
+                                        -32 16 -74 18 -425 18 -351 0 -393 -2 -425 -18z m770 -262 l0 -130 -345 0
+                                        -345 0 0 130 0 130 345 0 345 0 0 -130z"/>
+                                        <path d="M893 1126 c-130 -42 -233 -169 -249 -306 -13 -113 48 -253 139 -320
+                                        70 -52 141 -72 232 -68 143 6 247 76 308 206 28 58 32 77 31 147 0 65 -5 91
+                                        -28 142 -34 74 -112 153 -183 185 -60 26 -190 34 -250 14z m192 -155 c89 -40
+                                        140 -147 116 -239 -14 -50 -67 -113 -115 -136 -41 -20 -125 -21 -169 -3 -65
+                                        28 -127 121 -127 192 0 107 100 205 210 205 25 0 63 -9 85 -19z"/>
+                                        <path d="M1923 1121 c-226 -84 -310 -354 -171 -546 72 -99 177 -149 303 -143
+                                        143 6 247 76 308 206 27 58 32 78 31 147 0 66 -5 91 -28 142 -34 74 -112 153
+                                        -183 185 -69 30 -191 35 -260 9z m202 -150 c52 -24 91 -66 110 -120 27 -77 13
+                                        -141 -43 -203 -45 -50 -85 -68 -152 -68 -67 0 -107 18 -152 68 -73 81 -76 189
+                                        -5 269 61 69 161 92 242 54z"/>
+                                        <path d="M2963 1121 c-226 -84 -310 -354 -171 -546 114 -157 336 -192 500 -79
+                                        129 90 180 284 114 431 -34 74 -112 153 -183 185 -69 30 -191 35 -260 9z m202
+                                        -150 c70 -31 125 -113 125 -186 0 -71 -62 -164 -127 -192 -41 -17 -125 -17
+                                        -166 0 -65 28 -127 121 -127 193 0 37 30 108 58 138 59 63 159 83 237 47z"/>
+                                        <path d="M4003 1121 c-94 -35 -167 -103 -209 -196 -23 -49 -28 -75 -28 -140
+                                        -1 -69 3 -89 31 -147 60 -128 166 -199 305 -206 88 -5 150 12 222 59 136 90
+                                        190 285 122 436 -34 74 -112 153 -183 185 -69 30 -191 35 -260 9z m202 -150
+                                        c70 -31 125 -113 125 -186 0 -71 -62 -164 -127 -192 -41 -17 -125 -17 -166 0
+                                        -65 28 -127 121 -127 193 0 37 30 108 58 138 59 63 159 83 237 47z"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <h2>Web design <br>Degital</h2>
+                            </div>
+                            <hr>
+                            <div class="card-bottom">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. architecto, in asperiores id ea!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-6 col-lg-4" >
+                        <div class="service-card" data-aos="zoom-in">
+                            <div class="card-top">
+                                <div class="icon">
+                                    <img src="./assets/svg/web design.svg" alt="">
+                                </div>
+                                <h2>Web design <br>Degital</h2>
+                            </div>
+                            <hr>
+                            <div class="card-bottom">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. architecto, in asperiores id ea!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-6 col-lg-4" >
+                        <div class="service-card" data-aos="zoom-in">
+                            <div class="card-top">
+                                <div class="icon">
+                                    <img src="./assets/svg/web design.svg" alt="">
+                                </div>
+                                <h2>Web design <br>Degital</h2>
+                            </div>
+                            <hr>
+                            <div class="card-bottom">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. architecto, in asperiores id ea!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-12 col-md-6 col-lg-4" >
+                        <div class="service-card" data-aos="zoom-in">
+                            <div class="card-top">
+                                <div class="icon">
+                                    <img src="./assets/svg/web design.svg" alt="">
+                                </div>
+                                <h2>Web design <br>Degital</h2>
+                            </div>
+                            <hr>
+                            <div class="card-bottom">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. architecto, in asperiores id ea!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-6 col-lg-4" >
+                        <div class="service-card" data-aos="zoom-in">
+                            <div class="card-top">
+                                <div class="icon">
+                                    <img src="./assets/svg/web design.svg" alt="">
+                                </div>
+                                <h2>Web design <br>Degital</h2>
+                            </div>
+                            <hr>
+                            <div class="card-bottom">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. architecto, in asperiores id ea!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-6 col-lg-4" >
+                        <div class="service-card" data-aos="zoom-in">
+                            <div class="card-top">
+                                <div class="icon">
+                                    <img src="./assets/svg/web design.svg" alt="">
+                                </div>
+                                <h2>Web design <br>Degital</h2>
+                            </div>
+                            <hr>
+                            <div class="card-bottom">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. architecto, in asperiores id ea!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="col-12 service-cta d-flex align-items-center">
+                <button class="d-flex align-items-center" data-aos="fade-up" data-aos-duration="1000" >
+                    <span> VOIR PLUS</span>
+                    <svg 
+                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right " viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </button>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <section class="container-fluid" style="padding: 100px 0px; ">
+        <div class="row container mx-auto">
+            <div class="col-12 text-center ref-titles">
+                <h3>Nos partenaires</h3>
+                <h1>Nous font confiance</h1>
+            </div>
+            <div class="col-12">
+                <div class="row g-4  ref-list" >
+
+
+                    <div class="col-6 col-md-3 col-lg-2 ref-item">
+                        <img class="img-fluid" src="./assets/imgs/logo_2.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2  ref-item ">
+                        <img class="img-fluid" src="./assets/imgs/logo_4.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2  ref-item" >
+                        <img class="img-fluid" src="./assets/imgs/logo.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2  ref-item">
+                        <img class="img-fluid" src="./assets/imgs/logo_5.png" alt="">
+                    </div>
+
+
+                    <div class="col-6 col-md-3 col-lg-2  ref-item">
+                        <img class="img-fluid" src="./assets/imgs/logo_5.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2  ref-item ">
+                        <img class="img-fluid" src="./assets/imgs/logo.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2  ref-item" >
+                        <img class="img-fluid" src="./assets/imgs/logo_4.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2  ref-item">
+                        <img class="img-fluid" src="./assets/imgs/logo_2.png" alt="">
+                    </div>
+
+
+
+                    <div class="col-6 col-md-3 col-lg-2  ref-item">
+                        <img class="img-fluid" src="./assets/imgs/logo_2.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2  ref-item ">
+                        <img class="img-fluid" src="./assets/imgs/logo_4.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2  ref-item" >
+                        <img class="img-fluid" src="./assets/imgs/logo.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 ref-item">
+                        <img class="img-fluid" src="./assets/imgs/logo_5.png" alt="">
+                    </div>
+
+
+
+                    <div class="col-6 col-md-3 col-lg-2  ref-item">
+                        <img class="img-fluid" src="./assets/imgs/logo_5.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2  ref-item ">
+                        <img class="img-fluid" src="./assets/imgs/logo.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2  ref-item" >
+                        <img class="img-fluid" src="./assets/imgs/logo_4.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2  ref-item">
+                        <img class="img-fluid" src="./assets/imgs/logo_2.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12" style="height: 50vh; background-image : url('./assets/imgs/contact.jpg');
+                background-position: center; background-size: cover; position: relative; 
+                display: flex; justify-content: center; align-items: center;
+            "  data-aos="zoom-in" data-aos-duration="500" data-aos-delay="00" >  
+                <div class="overlay-dark" style="
+                    width: 100%;
+                    height: 100%;
+                    z-index: 9;
+                    background-color: black;
+                    opacity: 0.6;
+                    position: absolute;
+                    top: 0;
+                    left: 0;    
+                "></div>
+
+                <div class="contact-desc" style=" position: relative; z-index: 10;">
+                    
+                    <!-- <h1 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">Un projet en Tete ?</h1> -->
+                    <h3 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+                        Parlez-nous <br> de votre projet
+                    </h3>
+
+                    <button data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300" >Contactez nous</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-xxl" style="background-color: #275754;">
+        <div class="row">
+            <div class="col-12" style="height: 100vh;">
+                <div class="row" style="height: 80%; display: flex; align-items: center;">
+                    <div class="col-12 col-md-6 col-lg-3 footer-s1" >
+                        <img  src="./assets/imgs/Signature.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 footer-s2" >
+                        <div class="map-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#3b7d7d" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                              </svg>
+                        </div>
+                        <div class="map-desc">
+                            <h3>Communiquez</h3>
+                            <p>avec nous</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-6 col-lg-3 footer-s2" >
+                        <div class="map-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#3b7d7d" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                            </svg>
+                        </div>
+                        <div class="map-desc">
+                            <h3>inscrivez vous</h3>
+                            <p>a notre infolettre</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-6 col-lg-3 footer-media">
+                        <div class="me-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                            </svg>
+                        </div>
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row"style="height: 20%; background-color: #1e3f3f;">
+                    <div class="col-12 d-flex justify-content-center align-items-center footer-nav" >
+                        <a href="">Agence</a><span>|</span>
+                        <a href="">360°</a><span>|</span>
+                        <a href="">Services</a><span>|</span>
+                        <a href="">References</a><span>|</span>
+                        <a href="">Portfolio</a><span>|</span>
+                        <a href="">Contact</a>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center footer-nav" >
+                        <a href="">Créé par Signature CONSULTING. tous les droits reservé</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: {
+                delay : 0,
+            },
+            spaceBetween: 0,
+            slidesPerView: 'auto',
+            loop: true,
+            speed : 100000, 
+        });
+
+        var swiperr = new Swiper(".mySwiper2", {
+            autoplay: {
+                delay : 0,
+                reverseDirection: true,
+            },
+            spaceBetween: 0,
+            slidesPerView: 'auto',
+            loop: true,
+            speed : 100000, 
+        });
+
+        var workSlider = new Swiper('.workSwiper', {
+            autoplay: {
+                delay : 0,
+                reverseDirection: true,
+            },
+            loop: true,
+            slidesPerView: '3',
+            spaceBetween: 30,
+            speed : 9000, 
+        })
+
+        var imgSlider = new Swiper('.imgSwiper', {
+            autoplay: {
+                delay : 0,
+                reverseDirection: true,
+            },
+            // direction: "vertical",
+            loop: true,
+            slidesPerView: '3',
+            spaceBetween: 30,
+            speed : 9000, 
+        })
+
+
+    </script>
+
+
+
+    <script type="module" src="./counter.js"></script>
+
+        <!-- gsap script -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+
+        <script>
+            var tl = gsap.timeline()
+            tl.to('#logo', {
+                opacity : 0, 
+            })
+            tl.from("#nuage_01", {
+                y : 500,
+                duration : 1,
+            })
+            tl.from("#nuage_02", {
+                y : 500,
+                duration : 1,
+            }, "<+=.2")
+
+
+            tl.to("#nuage_01", {
+                // duration : 1, 
+                x : -100 , 
+            })
+            tl.to("#nuage_02", {
+                duration : 1, 
+                x : 90
+                 ,  
+            },"<+=.1")
+
+            tl.fromTo("#fusee", {
+                top : "200%", 
+                // duration: 1,
+            },{
+                top: "20%",
+                duration : 1,
+                ease: Back.easeOut,
+            },"<-=.1")
+
+
+            // tl.to('#fusee', {
+            //     top : "-100%",
+            //     duration : 1,
+            //     ease: Back.easeIn,
+            // },"<+=2") //Stay to second before the rocket go away.
+
+            // tl.to("#nuage_01", {
+            //     duration : 2, 
+            //     x : -110 , 
+            // },"<")
+            // tl.to("#nuage_02", {
+            //     duration : 2, 
+            //     x : 110,  
+            // },"<+=.1")
+
+
+            // tl.to("#nuage_01", {
+            //     x : -190 , 
+            //     duration : 1.8,
+            //     opacity : 0,
+            //     zIndex : 0
+            // },"<+=.3")
+            // tl.to("#nuage_02", {
+            //     x : 190,  
+            //     duration : 1.8,
+            //     opacity : 0,
+            //     zIndex : 0
+            // },"<+=.1")
+
+            tl.to('#logo', {
+                top: "-10%",
+                left: "-30%",
+                opacity : 1, 
+                duration : 1.7,
+                ease: Back.easeOut,
+            },"<")
+
+
+            gsap.to("#logo, #arrow", {duration: 1, y:10, ease:"circ.in", repeat:-1, yoyo:true})
+            gsap.to("#arrow", {duration: 1.2, y:10, x:10,  ease:"circ.in", repeat:-1, yoyo:true})
+            gsap.to('#crop, #crop_02', {
+                x: "+=20px",
+                yoyo:true,
+                repeat:-1,
+                stagger: {
+                    from: "left",
+                    amount: 1
+                },
+                duration : 2, 
+                ease: Power2.easeOut
+            })
+
+
+
+
+
+
+            ScrollTrigger.create({
+                trigger: '#service_section',
+                markers:true,
+                start:"top top+=400",
+                end:"bottom+=200 bottom", 
+                onEnterBack : () => {
+                    gsap.to('body', { duration: 1.0, backgroundColor: "#275754"})
+                },
+                onEnter: () => {
+                    gsap.to('body', { duration: 1.0, backgroundColor: "#275754"})
+                },
+                onLeaveBack: () => {
+                    gsap.to('body', { duration: 1.0, backgroundColor: '#E7E7D9'})
+                },                       
+                onLeave: () => {
+                    gsap.to('body', { duration: 1.0, backgroundColor: '#E7E7D9'})
+                },                       
+            })
+
+
+
+
+
+
+
+       </script>
+
+
+
+<script>
+    var tl = gsap.timeline()
+    tl.to('#exp_icon, #colab_icon', {
+        y: "+=20px",
+        yoyo:true,
+        repeat:-1,
+        stagger: {
+            from: "left",
+            amount: .4
+        },
+        duration : 2, 
+        ease: Power2.easeOut
+    })
+</script>
+
+<!-- <script>
+    var tll = gsap.timeline()
+    tll.to('#crop, #crop_02  ', {
+        y: "+=20px",
+        yoyo:true,
+        repeat:-1,
+        stagger: {
+            from: "left",
+            amount: .4
+        },
+        duration : 2, 
+        ease: Power2.easeOut
+    })
+</script> -->
+
+
+    
+</body>
+</html>
+
+
+

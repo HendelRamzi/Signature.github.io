@@ -1,0 +1,8 @@
+@media only screen and (min-width: 1440px){
+    .banner-container {
+        height: 88vh;
+    }
+    .banner-content{
+        max-width: 1440px;
+    }
+}

@@ -1,14 +1,4 @@
-@font-face {
-    font-family: "artico-bold";
-    src: url("Artico/Fontspring-DEMO-artico-medium.otf")
 
-}
-
-@font-face {
-    font-family: "artico-thin";
-    src: url("Artico/Fontspring-DEMO-artico-light.otf")
-
-}
 
 @font-face {
     font-family: "eras";
@@ -16,51 +6,55 @@
 
 }
 
+
 @font-face {
-    font-family: "Always W01 Black";
-    src: url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.eot");
-    src: url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.svg#Always W01 Black")format("svg");
+    font-family: "BebasNeue";
+    src: url(./BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: "Fortunates";
+    src: url(./Fortunates\ December.ttf);
 }
 
 
 
-
 .navbar{
-    background-color: #e9e9c3 !important;
+    background-color: #E7E7D9 !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 
 
 .nav-item{
     padding: 0px 1.5rem !important;
-    color: #3b7d7d;
+    color: #275754;
 }
 
 .nav-item span{
     margin: 0;
-    font-size: .6rem;
-    font-family: "artico-bold";
-
+    font-size: 1rem;
+    font-family: "BebasNeue";
+    color: #275754;
 }
 
 .nav-item a {
     margin: 0;
     text-decoration: none;
-    color: #3b7d7d;
-    font-family: "artico-bold";
-    font-size: 1rem;
+    color: #275754;
+    font-family: "BebasNeue";
+    font-size: 1.5rem;
 }
 
 
 .navbar-brand{
-    color: #ffd770;
-    font-family: "artico-bold";
-    font-size: 2rem;
+    color: #f2bf11;
+    font-family: "BebasNeue";
+    font-size: 3rem;
 }
+
 
 .small_banner{
     height: 100%;
@@ -72,27 +66,122 @@
 }
 
 .small_banner h3 {
-    font-family: "artico-bold";
+    font-family: "BebasNeue";
     text-transform: uppercase;
-    font-size: 1rem;
-    color: #3b7d7d;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    color: #275754;
 }
 
-.banner-content {
-    padding-top: 50px;
-    /* padding-left: 50px; */
-    /* min-height: 90vh; */
-    background-color: #3b7d7d;
-    /* color: #ffd770  ; */
+
+#nuage_01{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 8;
+    transform: translateX(-50%);
+    opacity: .7;
+
+}
+#nuage_02{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
+    opacity: .7;
+
+}
+
+#fusee{
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+    z-index: 9;
+}
+
+#logo{
+    /* /* position: absolute; */
+    /* top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);  */
+    opacity: 0;
     position: relative;
 }
+
+
+.banner-text{
+    padding-left: 50px;
+}
+
+.banner-text h1{
+    font-family: "BebasNeue" ;
+    letter-spacing: 3px;
+    font-size: 5rem;
+    color: #E7E7D9;
+}
+.banner-text h1:nth-child(2) {
+    margin-bottom: 2rem;
+}
+.banner-text p {
+    font-family: "eras";
+    color: #e7e7d9ba;
+    letter-spacing: 1px;
+    max-width: 50ch;
+    line-height: 1.5rem;
+}
+
+
+.title-sign {
+    margin-top: 1rem; color: #f2bf11; text-transform: uppercase;
+    font-family:"BebasNeue" ;
+    letter-spacing: 3px;
+}
+
+
+
+
 
 .banner-container{
     /* border-left: solid 3px #ffd770; */
     overflow: hidden;
-
 }
 
+.titles h1 {
+    font-family: "artico-thin";
+    font-size: 5vw;
+    letter-spacing: 2px;
+    /* line-height: 1.5rem; */
+}
+
+.titles .divider {
+    max-width: 300px;
+    background-color: #ffd770;
+    height: 3px;
+    margin: 1rem 0px;
+}
+
+
+.para-banner {
+    padding-top: 100px;
+}
+
+.para-banner p{
+    max-width: 50ch;
+    font-family: "eras";
+
+    color: #E7E7D9;
+    line-height: 2rem;
+}
+
+.para-banner a {
+    text-decoration: none;
+    color: #ffd770;
+    font-family: "eras";
+    margin-top: 2rem;
+}
 
 .banner-left{
     padding-left: 0px; 
@@ -106,13 +195,13 @@
 .banner-left > span {
     color: #ffd770  ;
     font-size: 0.875rem;
-    font-family: "artico-bold";
+    font-family: "BebasNeue";
     text-transform: uppercase;
 }
 
 .banner-left h1 {
     font-size: 3rem;
-    font-family: "artico-bold";
+    font-family: "BebasNeue";
     text-transform: uppercase;
     color: #e9e9c3;
     margin-bottom: 2rem;
@@ -131,6 +220,20 @@
     max-width: 60ch;
     line-height: 1.75rem;
 }
+
+
+.circle_banner {
+    position: absolute;
+    left: 30%;
+    top: 2%;
+    width: 500px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    /* outline: solid 2px #8d6e09; */
+    background-color: #275754bb;
+    /* outline-offset: -20px; */
+}
+
 
 
 .banner-right {
@@ -155,6 +258,14 @@
 }
 
 
+
+.slider-section{
+    /* transform: rotate(-13deg); */
+    position: absolute;
+    bottom: 0%;
+    /* width: 100%; */
+}
+
 .swiper-wrapper{
     transition-timing-function: linear;
   }
@@ -169,19 +280,19 @@
   }
   
   .swiper-slide span {
-    -webkit-text-stroke: 1px #ffd770 ;
-    -webkit-text-fill-color: #3b7d7d;
+    -webkit-text-stroke: 1px #f2bf11 ;
+    -webkit-text-fill-color: #275754;
   }
 
   .swiper-slide:hover b {
-    color: #ffd770;
+    color: #f2bf11;
   }
 
   */
 
   #circle.hoverd {
     /* border: solid 3px #ffd770; */
-    background-color: #ffd770;
+    background-color: #f2bf11;
     width: 120px; 
     height: 120px; 
   }
@@ -195,8 +306,8 @@
 
 
 .number-container h3 {
-    color: #3b7d7d;
-    font-family: "artico-bold";
+    color: #275754;
+    font-family: "BebasNeue";
     text-transform: uppercase;
 
 }
@@ -212,15 +323,15 @@
 }
 .number-container p {
     max-width: 40ch;
-    color: #3b7d7d;
+    color: #275754;
     font-family: "artico-thin";
 
 }
 
 
 .number-item h1{
-    font-family: "artico-bold";
-    color: #3b7d7d;
+    font-family: "BebasNeue";
+    color: #275754;
 }
 
 .number-item p {
@@ -259,13 +370,13 @@
 
 .number-cta button{
     background: none ;
-    border: 2px solid #3b7d7d;
+    border: 2px solid #275754;
     padding: .5rem 2rem;
     font-size: 1rem;
-    font-family: "artico-bold";
+    font-family: "BebasNeue";
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #3b7d7d;
+    color: #275754;
     transition: all .5s ease-in-out;
 }
 
@@ -278,7 +389,7 @@
 .number-cta button:hover{
     border: 2px solid #ffd770;
     color: #ffd770;
-    background-color: #3b7d7d;
+    background-color: #275754;
 }
 
 .number-cta button:hover > svg {
@@ -296,28 +407,28 @@
 
 .button {
     background: none ;
-    border: 2px solid #3b7d7d;
+    border: 2px solid #275754;
     padding: .5rem 2rem;
     font-size: 1rem;
-    font-family: "artico-bold";
+    font-family: "BebasNeue";
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #3b7d7d;
+    color: #275754;
     transition: all .5s ease-in-out;
 }
 
 .button:hover {
     border: 2px solid #ffd770;
     color: #ffd770;
-    background-color: #3b7d7d;
+    background-color: #275754;
 }
 
 .service-cta button{
     background: none ;
-    border: 2px solid #3b7d7d;
+    border: 2px solid #275754;
     padding: .5rem 2rem;
     font-size: 1rem;
-    font-family: "artico-bold";
+    font-family: "BebasNeue";
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #e9e9c3;
@@ -334,7 +445,7 @@
 .service-cta button:hover{
     border: 2px solid #ffd770;
     color: #ffd770;
-    background-color: #3b7d7d;
+    background-color: #275754;
 }
 
 .service-cta button:hover > svg {
@@ -463,34 +574,46 @@
 
 .rea-title{
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 1rem;
 }
 
 .rea-title .title{
     text-transform: uppercase;
     font-size: 4rem;
-    color: #336E6E;
-    word-spacing: -5px;
+    color: #275754;
+    word-spacing: 3px;
+    font-family: "BebasNeue";
 }
+
+
+
+
 
 
 .rea-title .floating {
-    color: #ffd770;
+    color: #f2bf11;
     font-size: 4rem;
     font-weight: 700;
     position: absolute;
-    top: -2rem;
+    top: -3rem;
+    font-family: "Fortunates";
+    /* font-style: italic; */
 }
 
 
-
+.title-para {
+    color: #275754;
+    font-family: 'eras'; 
+    max-width: 50ch; 
+    font-weight: bold;
+}
 
 .no-padding{
-    padding: 0;
+    padding: 0 !important;
 }
 
 .no-margin {
-    margin: 0;
+    margin: 0 !important;
 }
 
 
@@ -604,7 +727,7 @@
 .work-desc h1 {
     margin-bottom: 2rem;
     font-size: 3rem;
-    font-family: "artico-bold";
+    font-family: "BebasNeue";
     text-transform: uppercase;
     color: #e9e9c3;
 
@@ -623,7 +746,7 @@
     border: 2px solid #e9e9c3;
     padding: .5rem 2rem;
     font-size: 1rem;
-    font-family: "artico-bold";
+    font-family: "BebasNeue";
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #e9e9c3;
@@ -633,8 +756,21 @@
 
 .service-card{
     border: #e9e9c35f 1px solid;
+    border-radius: 10px;
     padding: 1rem 0px 1rem 2rem;
     height: 100%;
+    scale: 1;
+    transition: scale .2s ease-in;
+}
+
+
+.service-card:hover{
+    border: #f2bf11 2px solid;
+    scale: 1.1;
+}
+
+.service-card:hover .card-top h2 {
+    color: #f2bf11;
 }
 
 .card-top .icon {
@@ -644,8 +780,10 @@
 
 .card-top h2{
     color: #e9e9c3;
-    font-family: 'eras';
-    font-weight: 600;
+    font-family: 'BebasNeue';
+    letter-spacing: 3px;
+    transition: color .4 ease-in;
+    cursor: pointer;
     /* margin-bottom: 30px; */
 }
 
@@ -653,9 +791,15 @@
     filter: none;
     opacity: 1;
     background: none;
-    color: #e9e9c3;
-    background-color: #ffd770;
+    color: #f2bf11;
+    background-color: #f2bf11;
     height: 2px;
+    width: 80px;
+    transition: all .2s ease-in;
+}
+
+
+.service-card:hover hr{
     width: 200px;
 }
 
@@ -664,6 +808,13 @@
     font-family: 'eras';
     max-width: 30ch;
     padding: 1rem 0px;
+}
+
+.card-bottom a {
+    text-decoration: none;
+    font-family: 'eras';
+    color: #f2bf11;
+    border-bottom: #f2bf11 1px solid ;
 }
 
 
@@ -675,19 +826,21 @@
 }
 
 .ref-titles h3{
-    font-size: 13px;
-    font-family: 'eras';
+    font-size: 1.5rem;
+    font-family: 'BebasNeue';
     font-weight: 800;
     text-transform: uppercase;
-    color: #3b7d7d;
+    color: #f2bf11;
     letter-spacing: 5px;
+    
 }
 
 .ref-titles h1 {
-    font-size: 46px;
-    font-family: 'eras';
+    font-size: 3rem;
+    font-family: 'BebasNeue';
     font-weight: 800;
-    color: #3b7d7d;
+    color: #275754;
+    letter-spacing: 3px;
     margin-top: 10px;
 }
 
@@ -711,6 +864,72 @@
     height: 150px;
     width: 2px;
 }
+
+
+
+
+/* Button section style */
+
+
+.service-btn,  .realisation-btn {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.realisation-btn a {
+    text-decoration: none;
+    font-size: 1rem ; 
+    font-family: 'eras';
+    font-weight: bold;
+    color: #275754;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 0px #275754 solid;
+    transition: all .5s ease-in ;
+}
+
+.realisation-btn svg {
+    fill: #275754;
+    width: 1rem;
+    height: 1rem;
+    transition: all .5s ease-in;
+}
+
+.realisation-btn:hover a{
+    border-bottom: 1px #275754 solid;
+}
+
+
+
+.service-btn a {
+    text-decoration: none;
+    font-size: 1rem ; 
+    font-family: 'eras';
+    color: #f2bf11;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 0px #f2bf11 solid;
+    transition: all .5s ease-in ;
+}
+
+.service-btn svg {
+    fill: #f2bf11;
+    width: 1rem;
+    height: 1rem;
+    transition: all .5s ease-in;
+}
+
+.service-btn:hover svg, .realisation-btn:hover svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.service-btn:hover a{
+    border-bottom: 1px #f2bf11 solid;
+}
+
+
+
 
 
 
@@ -742,7 +961,7 @@
     font-size: 46px;
     font-family: 'eras';
     font-weight: 800;
-    color: #3b7d7d;
+    color: #275754;
     margin-top: 10px;
 }
 
@@ -756,14 +975,14 @@
 
 .nav-pills button {
     background: none !important;
-    font-family: "artico-bold";
+    font-family: "BebasNeue";
     color: #e9e9c39f !important;
 }
 
 
 .nav-pills button.active {
     background: none !important;
-    font-family: "artico-bold";
+    font-family: "BebasNeue";
     /* color: #ffd770 !important; */
     border: 1px solid #ffd770;
     color: #e9e9c3 !important;
@@ -771,7 +990,7 @@
 }
 
 .contact-content{
-    background-color: #3b7d7d;
+    background-color: #275754;
     border-radius: 10px;
     padding: 1rem 1rem;
 }
@@ -804,8 +1023,8 @@
 .form-email .submit:hover,.form-tel .submit:hover{
     background-color: #ffd770;
     font-family: 'eras';
-    color: #3b7d7d !important;
-    border: 1px solid #3b7d7d;
+    color: #275754 !important;
+    border: 1px solid #275754;
 }
 
 .form-email label, .form-tel label {
@@ -883,7 +1102,7 @@
     border: 2px solid #e9e9c3;
     padding: .5rem 2rem;
     font-size: 1rem;
-    font-family: "artico-bold";
+    font-family: "BebasNeue";
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #e9e9c3;
@@ -892,7 +1111,7 @@
 
 .contact-desc button:hover{
     background-color: #e9e9c3;
-    color: #3b7d7d;
+    color: #275754;
     font-weight: bold
 }
 
@@ -938,16 +1157,18 @@
 }
 
 .map-desc h3 {
-    font-size: 1rem;
-    font-family: "artico-bold";
+    font-size: 2rem;
+    font-family: "BebasNeue";
     text-transform: uppercase;
-    color: #e9e9c3;
+    color: #E7E7D9;
+    letter-spacing: 2px;
     margin: 0;
 }
 
 .map-desc p {
-    color: #ffd770;
+    color: #f2bf11;
     font-family: 'eras';
+    font-size: 1rem;
     margin: 0;
 }
 
@@ -959,10 +1180,21 @@
     align-items: center;
 }
 
-
-.footer-nav {
-    padding: 1rem 0px 0px 0px;
+.footer-media svg{
+    transform: rotate(0deg);
+    transition: all 1s ease-in-out ;
 }
+
+.footer-media svg:hover{
+    transform: rotateY(360deg);
+}
+
+/* @keyframes rotate {
+    0% {
+        tra
+    }
+} */
+
 
 .footer-nav a {
     font-size: .75rem;
@@ -992,54 +1224,52 @@
     .small_banner{
         height: 100%;
         display: flex;
-        /* background-color: #ffd770; */
         justify-content: center;
         align-items: center;
-        margin-top: 170px;
     }
     
     .small_banner h3 {
-        font-family: "artico-bold";
+        font-family: "BebasNeue";
+        font-weight: bold;
         text-transform: uppercase;
-        font-size: 1rem;
-        writing-mode: vertical-rl;text-orientation: mixed;
-        color: #3b7d7d;
+        font-size: 1.5rem;
+        letter-spacing: 4px;
+        writing-mode: vertical-rl;
+        /* text-orientation: mixed; */
+        transform: rotate(180deg);
+        color: #275754;
     }
     
-    .banner-content {
-        padding-top: 50px;
-        /* padding-left: 50px; */
-        /* min-height: 90vh; */
-        background-color: #3b7d7d;
-        color: #ffd770  ;
-        position: relative;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
-    }
+
+    
     
     .banner-container{
         /* border-left: solid 3px #ffd770; */
         overflow: hidden;
-    
+        height: 100vh;
+        /* background-color: #285856; */
+        background-image: url('./assets/imgs/FOND.png');
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     
     .banner-left{
         text-align: left;
         padding: 0px;
-        padding-left: 100px; padding-bottom: 100px; padding-top: 100px;
+        padding-left: 100px;  padding-top: 50px;
     }
         
     
     .banner-left > span {
         font-size: 0.875rem;
-        font-family: "artico-bold";
+        font-family: "BebasNeue";
         text-transform: uppercase;
     }
     
     .banner-left h1 {
         font-size: 3rem;
-        font-family: "artico-bold";
+        font-family: "BebasNeue";
         text-transform: uppercase;
         color: #e9e9c3;
         margin-bottom: 0rem;
@@ -1062,6 +1292,9 @@
         line-height: 1.75rem;
     }
     
+    .banner-left .button {
+        border: 2px solid #ffd770;
+    }
     
     .banner-right {
         padding-bottom: 100px; 

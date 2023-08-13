@@ -11,14 +11,14 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
-<body style="background-color: #3b7d7d  ;">
+<body style="background-color: #275754  ;">
     
 
 
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="#" style="color: #e9e9c3 ;">LOGO</a>
+                <a class="navbar-brand" href="#" style="color: #E7E7D9 ;">LOGO</a>
                 <div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
 
                             <li class="nav-item d-flex flex-column justify-content-center "  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100"> 
                                 <span class="align-self-end">01</span>
-                                <a class=" active" aria-current="page" href="./index.html">Agence</a>
+                                <a class=" active" aria-current="page" href="./agence.html">Agence</a>
                             </li>
 
 
@@ -59,7 +59,7 @@
 
                             <li class="nav-item d-flex flex-column justify-content-center " data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600"> 
                                 <span class="align-self-end">06</span>
-                                <a class=" active" aria-current="page" href="./contact.html">Contact</a>
+                                <a class=" active" aria-current="page" href="#">Contact</a>
                             </li>
             
                         </ul>
@@ -69,25 +69,27 @@
         </nav>
     </header>
 
+    
 
+    
     <section class="container-fluid" style="padding: 100px 0px; overflow: hidden;">
-        <div class="row mx-auto">
+        <div class="row ">
 
 
-            <div class="col-12 col-lg-5 d-flex flex-column align-items-center pinned-area" style="padding: 2rem;" >
+            <div class="col-12 col-lg-4 d-flex flex-column align-items-center pinned-area" style="padding: 2rem;" >
                 <h2 class="rea-title" data-aos="zoom-in">
-                    <span class="floating" style='font-family: "Always W01 Black"; font-style: italic;'>Nos</span> 
-                    <span class="title" style="color: #e9e9c3;" >services</span>
+                    <span class="floating" style='font-family: "Fortunates"; font-style: italic;'>Nos</span> 
+                    <span class="title" style="color: #E7E7D9;" >services</span>
                 </h2>
-                <p style="color: #ffd770; text-align: center; font-family: 'eras'; max-width: 50ch; ">
+                <p style="color: #f2bf11; text-align: center; font-family: 'eras'; max-width: 50ch; ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, atque quia. Ea, accusamus. Libero assumenda earum praesentium voluptas. Eaque, possimus.
                 </p>
             </div>
 
 
-            <div class="col-12 col-lg-7  " style="padding: 3rem 10px;" >
-                <div class="row gy-4">
-                    <div class="col-12 col-md-6 " data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-12 col-lg-8" style="padding: 3rem  2rem" >
+                <div class="row gy-4" >
+                    <div class="col-12 col-md-6 "  data-aos="fade-up" data-aos-duration="1000">
                         <div class="service-item">
                             <div class="service-img">
                                 <img src="./assets/svg/camera.svg" alt="">
@@ -196,8 +198,8 @@
     </section>
 
 
-
-    <section class="container-fluid" style=" background-color: #e9e9c3 !important; padding: 100px 0px 100px 0px;">
+    
+    <section class="container-fluid" style=" background-color: #E7E7D9 !important; padding: 100px 0px 100px 0px;">
         <div class="row container mx-auto">
             <div class="col-12 text-center ref-titles">
                 <h3>Nos partenaires</h3>
@@ -398,6 +400,7 @@
             scrollTrigger: {
                 trigger: ".pinned-area",
                 pin: true,   // pin the trigger element while active
+                pinSpacing : false,
                 scrub: 2, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
                 end :"bottom-=650 top",
                 start :"top-=100 top", 

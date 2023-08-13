@@ -1,14 +1,4 @@
-@font-face {
-    font-family: "artico-bold";
-    src: url("Artico/Fontspring-DEMO-artico-medium.otf")
 
-}
-
-@font-face {
-    font-family: "artico-thin";
-    src: url("Artico/Fontspring-DEMO-artico-light.otf")
-
-}
 
 @font-face {
     font-family: "eras";
@@ -16,63 +6,52 @@
 
 }
 
-
 @font-face {
-    font-family: "goldbill";
-    src: url("./goldbill_xs/Goldbill-XSExtraBold.ttf"),
+    font-family: "BebasNeue";
+    src: url(./BebasNeue-Regular.ttf);
 }
-
-
 @font-face {
-    font-family: "goldbill-thin";
-    src: url("./goldbill_xs/Goldbill-XLLight.ttf"),
+    font-family: "Fortunates";
+    src: url(./Fortunates\ December.ttf);
 }
-
-@font-face {
-    font-family: "Always W01 Black";
-    src: url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.eot");
-    src: url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/26b8ae09ece7d707ec77a26999d6789c.svg#Always W01 Black")format("svg");
-}
-
-
 
 .navbar{
-    background : transparent;
-    /* border-bottom: solid 3px #ffd770; */
+    background-color: #E7E7D9 !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 
 
 .nav-item{
     padding: 0px 1.5rem !important;
-    color: #e9e9c3;
+    color: #275754;
 }
 
 .nav-item span{
     margin: 0;
-    font-size: .6rem;
-    font-family: "artico-bold";
-
+    font-size: 1rem;
+    font-family: "BebasNeue";
+    color: #275754;
 }
 
 .nav-item a {
     margin: 0;
     text-decoration: none;
-    color: #e9e9c3;
-    font-family: "artico-bold";
-    font-size: 1rem;
+    color: #275754;
+    font-family: "BebasNeue";
+    font-size: 1.5rem;
 }
 
 
 .navbar-brand{
-    color: #ffd770;
-    font-family: "artico-bold";
-    font-size: 2rem;
+    color: #f2bf11;
+    font-family: "BebasNeue";
+    font-size: 3rem;
 }
+
 
 
 
@@ -99,7 +78,7 @@
     margin-bottom: 20px;
     letter-spacing: 7px;
     text-transform: uppercase;
-    color: #e9e9c3;
+    color: #E7E7D9;
     text-align: center;
 }
 
@@ -107,7 +86,7 @@
     font-family: "eras";
     font-size: 2rem;
 
-    color: #e9e9c3;
+    color: #E7E7D9;
     text-align: center;
     /* line-height: 90px; */
     letter-spacing: 1px;
@@ -126,7 +105,7 @@
 .contact-title{
     padding-bottom: 4rem;
     text-align: center;
-    color: #e9e9c3;
+    color: #E7E7D9;
 
 }
 
@@ -136,7 +115,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-right: 2px solid #ffd770;
+    border-right: 2px solid #f2bf11;
     padding: 2rem;
 }
 
@@ -150,12 +129,12 @@
 .contact-item h3 {
     font-size: 1rem;
     text-transform: uppercase;
-    color: #ffd770;
+    color: #f2bf11;
     margin-bottom: 1rem;
 }
 
 .contact-item  p {
-    color: #e9e9c3;
+    color: #E7E7D9;
     font-family: "eras";
     font-weight: bold;
     margin-bottom: 0px;
@@ -171,7 +150,7 @@
     margin-bottom: 1rem;
     font-weight: bold;
     letter-spacing: 2px;
-
+    font-family: "BebasNeue";
 }
 
 
@@ -180,9 +159,10 @@
 }
 
 .form-title h1, .form-title h2 {
-    font-size: 1rem;
-    color: #e9e9c3;
-    font-family: "goldbill";
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #E7E7D9;
+    font-family: "BebasNeue";
     /* letter-spacing: 7px; */
     text-transform: uppercase;
 }
@@ -190,7 +170,9 @@
 
 
 .formulaire * {
-    background-color: #e9e9c3;
+    background-color: #E7E7D9;
+    font-family: "eras";
+    letter-spacing: 2px;
 }
 
 .form-content button {
@@ -200,20 +182,20 @@
 
 .button {
     background: none ;
-    border: 2px solid #e9e9c3;
+    border: 2px solid #E7E7D9;
     padding: .5rem 2rem;
     font-size: 1rem;
-    font-family: "artico-bold";
+    font-family: "BebasNeue";
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #e9e9c3;
+    color: #E7E7D9;
     transition: all .5s ease-in-out;
 }
 
 .button:hover {
-    border: 2px solid #e9e9c3;
-    color: #3b7d7d;
-    background-color: #e9e9c3;
+    border: 2px solid #E7E7D9;
+    color: #275754;
+    background-color: #E7E7D9;
 }
 
 
@@ -242,7 +224,7 @@
     width: 60px;
     height: 60px;
     padding: 1rem;
-    background-color: #e9e9c3;
+    background-color: #E7E7D9;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -259,14 +241,14 @@
 
 .map-desc h3 {
     font-size: 1rem;
-    font-family: "artico-bold";
+    font-family: "BebasNeue";
     text-transform: uppercase;
-    color: #e9e9c3;
+    color: #E7E7D9;
     margin: 0;
 }
 
 .map-desc p {
-    color: #ffd770;
+    color: #f2bf11;
     font-family: 'eras';
     margin: 0;
 }
@@ -286,17 +268,17 @@
 
 .footer-nav a {
     font-size: .75rem;
-    color: #e9e9c34e;
+    color: #E7E7D94e;
     text-decoration: none;
 }
 
 .footer-nav a:hover {
     
-    color: #e9e9c3;
+    color: #E7E7D9;
 }
 .footer-nav span{
     padding: 0px 1rem;
-    color: #e9e9c34e;
+    color: #E7E7D94e;
 }
 
 
@@ -334,7 +316,7 @@
     margin-bottom: 20px;
     letter-spacing: 7px;
     text-transform: uppercase;
-    color: #e9e9c3;
+    color: #E7E7D9;
     text-align: center;
 }
 
@@ -342,7 +324,7 @@
     font-family: "eras";
     font-size: 72px;
     max-width: 30ch;
-    color: #e9e9c3;
+    color: #E7E7D9;
     text-align: center;
     line-height: 90px;
     letter-spacing: -2px;
